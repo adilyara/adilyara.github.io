@@ -34,14 +34,14 @@ body {
 }
 
 article {
-	max-width: 760px;
+	max-width: 840px;
 	margin: auto;
 }
 
 .header {
     font-size: 32pt;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
 }
 
