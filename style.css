@@ -33,16 +33,21 @@ body {
     flex-direction: column;
 }
 
-article,
-header,
-footer {
+article {
 	max-width: 760px;
 	margin: auto;
 }
 
 .header {
+    font-size: 32pt;
+    font-weight: bolder;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.subheader {
+    font-size: 16pt;
+    margin-bottom: 50px;
 }
 
 .block {
@@ -67,14 +72,4 @@ aside {
 
 aside p {
     margin-bottom: 5px;
-}
-
-.header {
-	font-size: 32pt;
-	font-weight: bolder;
-}
-
-.subheader {
-	font-size: 16pt;
-	margin-bottom: 50px;
 }
