@@ -29,20 +29,18 @@ p {
 
 .main {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+}
+
+article {
+	max-width: 760px;
+	margin: auto;
 }
 
 .block {
 	display: flex;
 }
 
-.whole {
-	max-width: 1200px;
-}
-
-.content {
+.main-column {
 	max-width: 75%;
 	margin-right: 10px;
 }
